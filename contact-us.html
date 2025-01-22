@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elegant Yachting Tours</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Yatching Tours Page">
+    <meta name="keywords" content=" Yatching, Yatchs, Water, Tours, Holidays, Sailing Holidays, Water Sports, Charter">
+    <meta name="author" content="Daniel Rogers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link 
+        href="https://fonts.googleapis.com/css/css?family=montserrat"
+        rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+      </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <form id="contactForm">
+        <h2 style="font-size: 40px;">Contact Form</h2>
+        <label for="first-name">First Name</label><br>
+        <input type="text" id="first-name" name="first_name" placeholder="Enter your first name" required><br>
+    
+        <label for="last-name">Last Name</label><br>
+        <input type="text" id="last-name" name="last_name" placeholder="Enter your last name" required><br>
+    
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+    
+        <label for="contact-number">Contact Number</label><br>
+
+        <input type="tel" id="contact-number" name="contact_number" placeholder="Enter your contact number" required><br>
+        <label for="captcha">Enter CAPTCHA:</label>
+        <div id="captchaContainer">
+          <span id="captchaText"></span>
+          <button type="button" onclick="generateCaptcha()">&#8635;</button>
+        </div>
+        <input type="text" id="captchaInput" placeholder="Enter the text above" required>
+        <button type="submit" id="submitBtn">Submit</button>
+      
+      <p id="captchaError" style="color: red; display: none;">Incorrect CAPTCHA. Try again.</p>
+      </form>
+    </main>
+
+    <footer class="footer-content">
+      <div>
+        <h3> Office Address</h3>
+        <p> 123 Yatching Way Nice France</p>
+        <p> &copy; 2024 Elegant yatching Tours. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+       </ul>
+       <p class="footer-social">
+          <a href="#"><i class="fab fa-facebook f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+       </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>  
