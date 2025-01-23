@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Elegant Yachting Tours</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Yatching Tours Page">
-    <meta name="keywords" content=" Yatching, Yatchs, Water, Tours, Holidays, Sailing Holidays, Water Sports, Charter">
-    <meta name="author" content="Daniel Rogers">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Elegant Yachting Tours</title>
+<meta charset="UTF-8">
+<meta name="description" content="Yatching Tours Page">
+<meta name="keywords" content=" Yatching, Yatchs, Water, Tours, Holidays, Sailing Holidays, Water Sports, Charter">
+<meta name="author" content="Daniel Rogers">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css"/>
-    <link 
-        href="https://fonts.googleapis.com/css/css?family=monserrat"
-        rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<!-- Link to external stylesheet for page styles -->
+<link rel="stylesheet" href="style.css"/>
 
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-      </style>
+<!-- Link to Google Fonts for custom typography (Montserrat) -->
+<link href="https://fonts.googleapis.com/css/css?family=monserrat" rel="stylesheet"/>
 
+<!-- Link to external FontAwesome library for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="tours.html">Tours</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+<!-- Preconnect for better performance in fetching fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Link to Google Fonts for custom typography (Italianno) -->
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+<!-- Importing Great Vibes font from Google Fonts -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+</style>
+
+</head>
+<body>
+
+<!-- Header containing the navigation bar -->
+<header>
+<nav>
+  <!-- Navigation menu for site pages -->
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="tours.html">Tours</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-- Main content area of the website -->
+<main class="container">
+<section>
+  <h1> Gallery</h1>
+  
+  <!-- Responsive gallery grid for images -->
+  <div class="responsive">
+    <div class="gallery">
+      <!-- Gallery images with descriptions and sizes -->
+      <img src="gallery-image1.jpg" alt="Yatch" width="350" height="200">
+      <img src="gallery-image2.jpg" alt="yatch interior kitchen" width="350" height="200">
+      <img src="gallery-image3.jpg" alt="Yatch Lounge" width="350" height="200">
+      <img src="gallery-image4.jpg" alt="Yatch dinning area" width="350" height="200">
+    </div>
+  </div>
+
+  <!-- Clears floats and ensures layout consistency -->
+  <div class="clearfix"></div>
+</section>
+</main>
+
+<!-- Footer section containing copyright and links -->
+<footer class="footer-content">
+  <div class="footer-content">
+    <!-- Copyright information -->
+    <p> &copy; 2024 Elegant yatching Tours. All rights reserved.</p>
     
-    <main class="container">
-      <section>
-        <h1> Gallery</h1>
-        <div class="responsive">
-          <div class="gallery">
-            <img src="gallery-image1.jpg" alt="Yatch" width="350" height="200">
-            <img src="gallery-image2.jpg" alt="yatch interior kitchen" width="350" height="200">
-            <img src="gallery-image3.jpg" alt="Yatch Lounge" width="350" height="200">
-            <img src="gallery-image4.jpg" alt="Yatch dinning area" width="350" height="200">
-          </div>
-        </div>
-        
-        <div class="clearfix"></div>
-      </section>
-    </main>
+    <!-- Footer navigation links -->
+    <ul class="footer-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
     
-    <footer class="footer-content">
-      <div class="footer-content">
-        <p> &copy; 2024 Elegant yatching Tours. All rights reserved.</p>
-        <ul class="footer-links">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="tours.html">Tours</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-       </ul>
-       <p class="footer-social">
-          <a href="#"><i class="fab fa-facebook f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-       </p>
-      </div>
-    </footer>
-  </body>
-</html>  
+    <!-- Social media links with FontAwesome icons -->
+    <p class="footer-social">
+      <a href="#"><i class="fab fa-facebook f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
