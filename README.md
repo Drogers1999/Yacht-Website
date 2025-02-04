@@ -33,20 +33,47 @@ Open the project folder.
 
 Run the home.html file in your browser to view the website.
 
-Folder Structure
-📂 Website  
-├── home.html  
-├── tours.html  
-├── gallery.html  
-├── about.html  
-├── contact.html  
-├── home.css  
-├── style.css  
-├── script.js  
-├── gallery-image1.jpg  
-├── gallery-image2.jpg  
-├── gallery-image3.jpg  
-└── gallery-image4.jpg  
+Folder Structure:
+
+Yacht-Website
+│
+├── public
+│   ├── .DS_Store
+│   ├── index.html
+│   └── images
+│       ├── .DS_Store
+│       ├── gallery-image1.jpg
+│       ├── gallery-image2.jpg
+│       ├── gallery-image3.jpg
+│       ├── gallery-image4.jpg
+│       └── teal.jpg
+│
+├── src
+│   ├── .DS_Store
+│   ├── App.jsx
+│   ├── index.jsx
+│   ├── components
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   │
+│   ├── pages
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Home.jsx
+│   │   └── Tours.jsx
+│   │
+│   └── styles
+│       ├── .DS_Store
+│       └── styles.css
+│
+├── .DS_Store
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── yarn.lock
+└── index.jsx
 
 Future Improvements
 Add backend support for the contact form to store or email user inquiries.
