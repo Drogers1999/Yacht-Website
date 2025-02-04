@@ -36,12 +36,9 @@ Run the home.html file in your browser to view the website.
 Folder Structure:
 
 Yacht-Website
-│
 ├── public
-│   ├── .DS_Store
 │   ├── index.html
-│   └── images
-│       ├── .DS_Store
+│   └── images/
 │       ├── gallery-image1.jpg
 │       ├── gallery-image2.jpg
 │       ├── gallery-image3.jpg
@@ -49,31 +46,18 @@ Yacht-Website
 │       └── teal.jpg
 │
 ├── src
-│   ├── .DS_Store
 │   ├── App.jsx
 │   ├── index.jsx
-│   ├── components
-│   │   ├── Footer.jsx
-│   │   └── Navbar.jsx
-│   │
-│   ├── pages
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Gallery.jsx
-│   │   ├── Home.jsx
-│   │   └── Tours.jsx
-│   │
-│   └── styles
-│       ├── .DS_Store
-│       └── styles.css
+│   ├── components/ (Footer.jsx, Navbar.jsx)
+│   ├── pages/ (About.jsx, Contact.jsx, Gallery.jsx, Home.jsx, Tours.jsx)
+│   └── styles/ (styles.css)
 │
-├── .DS_Store
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
-├── README.md
 ├── yarn.lock
-└── index.jsx
+└── README.md
+
 
 Future Improvements
 Add backend support for the contact form to store or email user inquiries.
