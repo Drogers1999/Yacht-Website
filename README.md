@@ -1,6 +1,6 @@
 Yatch Website
 
-A simple, elegant website for a yachting tours service. This project showcases a visually appealing layout and functionality using HTML, CSS, and JavaScript. It includes multiple pages designed to provide a smooth user experience while highlighting key features such as a gallery, contact form with validation, and captcha for security.
+A simple, elegant website for a yachting tours service. This project showcases a visually appealing layout and functionality using React.js. It includes multiple pages designed to provide a smooth user experience while highlighting key features such as a gallery, contact form with validation, and captcha for security.
 
 Features
 Home Page:
